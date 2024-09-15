@@ -1,6 +1,5 @@
-variable "amiID" {
-  type = string
-}
-variable "instanceType" {
-  type = string
-}
+instanceType        = "t2.large"
+owner               = "099720109477"
+virtualization-type = "hvm"
+root-device-type    = "ebs"
+ami-name            = "ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-*"
