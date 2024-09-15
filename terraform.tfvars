@@ -1,2 +1,6 @@
-ami_id        = "qbcdefghhh"
-instance_type = "t2.large"
+variable "amiID" {
+  type = string
+}
+variable "instanceType" {
+  type = string
+}
