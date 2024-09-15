@@ -1,6 +1,2 @@
-variable "ami_id" {
-  type = string
-}
-variable "instance_type" {
-  type = string
-}
+amiID        = "qbcdefghhh"
+instanceType = "t2.large"
